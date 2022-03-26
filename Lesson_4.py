@@ -64,15 +64,6 @@
 #Задание 7
 from math import factorial
 
-# def fact(a):
-#     for el in range(a):
-#         print(i, end='! = ')
-#         yield factorial(i)
-#
-# n = int(input('Введиче число факториал которого хотите вычислить: '))
-# for i in fact(n):
-#     print(fact(i))
-
 def fact (n):
     for i in range(n):
         print(f'{i}! = ')
